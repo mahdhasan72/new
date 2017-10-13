@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Display and visibilit ies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .First_div {
+            min-height: 200px;
+            background-color: aqua;
+            display: none;
+        }
+
+        .Second_div {
+            min-height: 200px;
+            background-color: blueviolet;
+        }
+
+        .Third_div {
+            min-height: 200px;
+            background-color: yellowgreen;
+        }
+
+        .selector>p {
+            color: brown;
+        }
+
+
+        .testing +p{color: dodgerblue}
+
+    </style>
+</head>
+
+<body>
+    <div class="First_div"></div>
+    <div class="Second_div"></div>
+    <div class="Third_div"></div>
+    <div class="selector">
+        <p>Hello Bangladesh main</p>
+        <p>Hello Bangladesh main</p>
+        <p>Hello Bangladesh main</p>
+        <p>Hello Bangladesh main</p>
+        
+    </div>
+    <div class="testing">
+            <p>Hello Bangladesh</p>
+            <p>Hello Bangladesh</p>
+            <p>Hello Bangladesh</p>
+            <p>Hello Bangladesh</p>
+    </div>
+</body>
+
+</html>
